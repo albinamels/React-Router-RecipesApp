@@ -20,7 +20,7 @@ export const Navigation = () => {
 
       <NavItem>
         <Link to="/instructions">
-          <NavLink>Instructions</NavLink>
+          <NavLink>Recipes</NavLink>
         </Link>
       </NavItem>
 

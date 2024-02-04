@@ -52,7 +52,11 @@ export const Instructions = ({ menuObj }) => {
     <>
       <Button
         onClick={handleBack}
-        style={{ margin: "10px", backgroundColor: "tomato", border: "none" }}
+        style={{
+          margin: "10px",
+          backgroundColor: "tomato",
+          border: "none",
+        }}
       >
         <RiArrowGoBackFill size={20} />
       </Button>
@@ -73,7 +77,7 @@ export const Instructions = ({ menuObj }) => {
             </a>
           </div>
         </div>
-        <hr style={{ border: "2px solid tomato" }} />
+        <hr style={{ border: "2px solid rgb(162, 185, 126)" }} />
         <h5>Instructions</h5>
         <p>{strInstructions}</p>
         <h5>Ingredients</h5>

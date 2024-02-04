@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom"; // npm i react-router-dom
 import { Home } from "./routes/Home";
 import { Instructions } from "./routes/Instructions";
 import { Login } from "./routes/Login";
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Navigation />
-      <div className="container">
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />

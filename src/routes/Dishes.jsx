@@ -44,18 +44,18 @@ export const Dishes = ({ getMenuObj }) => {
   };
 
   return (
-    <div>
+    <div className="container ">
       <Input
         className="search-field"
         name="food"
-        placeholder="enter your favorite food..."
+        placeholder="enter first letter..."
         type="text"
         onChange={(e) => setSearchQuery(e.target.value)}
         style={{
           width: "48%",
           margin: "30px auto",
           padding: "10px 20px",
-          border: "2px solid tomato",
+          border: "2px solid rgb(162, 185, 126)",
           fontSize: "20px",
         }}
       />
@@ -66,7 +66,12 @@ export const Dishes = ({ getMenuObj }) => {
               dish;
             return (
               <Card
-                style={{ width: "18rem", textAlign: "center" }}
+                style={{
+                  width: "18rem",
+                  textAlign: "center",
+                  border: "none",
+                  boxShadow: "3px 3px 3px rgb(162, 185, 126)",
+                }}
                 key={idMeal}
               >
                 <img src={strMealThumb} alt={strMeal} />
@@ -81,8 +86,14 @@ export const Dishes = ({ getMenuObj }) => {
                 1. fires getMenuObj(), which lifts up whole dish{} and updates the state in App
                 2. checks status and navigates to Instructions || Login
                 */}
-                  <Button onClick={() => handleClick(dish)}>
-                    Click for instructions
+                  <Button
+                    onClick={() => handleClick(dish)}
+                    style={{
+                      backgroundColor: "rgb(162, 185, 126)",
+                      border: "none",
+                    }}
+                  >
+                    Recipe
                   </Button>
                 </CardBody>
               </Card>
