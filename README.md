@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+### Welcome to my recipe-finder app: https://albina-recipes.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Home Page](https://github.com/albinamels/React-Router-RecipesApp/blob/master/public/home.png)
 
-## Available Scripts
+![Login](https://github.com/albinamels/React-Router-RecipesApp/blob/master/public/login.png)
+
+![Search](https://github.com/albinamels/React-Router-RecipesApp/blob/master/public/search.png)
+
+![Recipe](https://github.com/albinamels/React-Router-RecipesApp/blob/master/public/recipe.png)
+
+### Available Scripts
 
 In the project directory, you can run:
 
