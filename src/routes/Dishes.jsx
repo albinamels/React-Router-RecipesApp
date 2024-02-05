@@ -48,7 +48,7 @@ export const Dishes = ({ getMenuObj }) => {
       <Input
         className="search-field"
         name="food"
-        placeholder="enter first letter..."
+        placeholder="Enter first letter..."
         type="text"
         onChange={(e) => setSearchQuery(e.target.value)}
         style={{
