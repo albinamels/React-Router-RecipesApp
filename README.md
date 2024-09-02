@@ -1,8 +1,6 @@
-### Welcome to my recipe-finder app!
+### Welcome to my [recipe-finder app!](https://albina-recipes.netlify.app/)
 
 ![Home Page](https://github.com/albinamels/React-Router-RecipesApp/blob/master/public/home.png)
-
-https://albina-recipes.netlify.app/
 
 ![Login](https://github.com/albinamels/React-Router-RecipesApp/blob/master/public/login.png)
 
